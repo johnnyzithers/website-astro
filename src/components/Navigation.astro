@@ -1,0 +1,32 @@
+---
+export interface Props {
+    content: string,
+    href: string,
+	image: string,
+}
+const {href, content, image} = Astro.props;
+---
+<div class="navigation-banner">
+
+        
+        <!-- <p> -->
+            <h3> I am a 
+                <a href="/music"> musician  </a>
+                <a href=""> software engineer </a>
+                <a href="instruments"> instrument builder </a>
+                <a href="videos"> digital artist  </a>
+            
+            </h3>
+            
+            <h3> I also do
+                <a href="/workshops"> instrument building workshops </a>
+                and run a 
+                <a href="/workshops"> recording studio </a>
+        
+            </h3>
+        <!-- </p> -->
+</div>
+
+
+<style>
+</style>
