@@ -8,25 +8,84 @@ const {href, content, image} = Astro.props;
 ---
 <div class="navigation-banner">
 
+    <!-- <h3 class="nav-heading"> I am a  -->
+
         
-        <!-- <p> -->
-            <h3> I am a 
-                <a href="/music"> musician  </a>
-                <a href=""> software engineer </a>
-                <a href="instruments"> instrument builder </a>
-                <a href="videos"> digital artist  </a>
-            
-            </h3>
-            
-            <h3> I also do
-                <a href="/workshops"> instrument building workshops </a>
-                and run a 
-                <a href="/workshops"> recording studio </a>
+    </h3>
+    
+    <h3> 
+        <div class="music-link">
+            <a href="/music" > music  </a>
+        </div>
+<!--         
+        <div class="code-link">
+            <a href=""> software </a>
+        </div> -->
+
+        <div class="instr-link">
+            <a href="instruments"> instruments </a>
+        </div>
         
-            </h3>
-        <!-- </p> -->
+        <div class="art-link">
+            <a href="videos" > video  </a>
+        </div>
+        
+    
+    </h3>
+    
+    <!-- <h3 class="nav-heading"> I organize -->
+    </h3>
+    <h3>
+        <div class="workshop-link">
+            <a href="/workshops" class="workshop-link"> workshops </a>
+        </div>
+        
+        <div class ="studio-link">
+            <a href="/studio" class="studio-link">  studio </a>
+        </div>
+        
+        </h3>
+        <h3>
+        <!-- in Tiohti:áke / Montréal, Canada -->
+
+    </h3>
+
 </div>
 
 
 <style>
+
+    a {
+        color: white;
+        /* padding; 1em; */
+    }
+    div {
+        display: inline;
+        padding: 0.3em;
+    }
+
+    .music-link {
+        background-color: #01256F;
+    }
+
+    .code-link {
+        background-color: #B43CA4;
+    }
+
+    .instr-link {
+        background-color: #F79CEE;
+    }
+
+    .art-link {
+        background-color: #17955B;
+    }
+
+    .workshop-link {
+        background-color: #83E0C1;
+    }
+
+    .studio-link {
+        background-color: #333ED4;
+    }
+
 </style>
