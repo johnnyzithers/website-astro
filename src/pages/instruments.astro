@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation.astro';
 import '../styles/common.css'
 
 ---
-<Layout title="Welcome to Astro.">
+<Layout title="DM - instruments">
 	<main>
 
 		<Navigation></Navigation>
@@ -18,11 +18,14 @@ import '../styles/common.css'
 		</p>
 		<ul role="list" class="link-card-grid">
 			{instrumentData.map((data) => 
-			<Card 
-				title = {data.title}
-				image = {data.imageUrl}> 
-				body = {data.description}
-			</Card>
+				<Card 
+					href = {data.href}
+					body = {data.description}
+					title = {data.title}
+					image = {data.imageUrl}
+					tags = {data.tags}
+					date = {data.date} >
+				</Card>
 			)}
 
 		</ul>

@@ -1,13 +1,15 @@
 ---
 export interface Props {
     title: string,
-    body: string,
-    href: string,
-	image: string,
+    date: string,
+    videoUrl: string,
 }
-const {title, body, videoUrl} = Astro.props;
+const {title, date, videoUrl} = Astro.props;
 ---
 <li class="link-card">
+        
+        <p>{date}</p>
+
         <iframe
         src={videoUrl}
         title={title}

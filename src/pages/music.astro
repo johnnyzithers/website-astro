@@ -8,7 +8,7 @@ import Navigation from '../components/Navigation.astro';
 import '../styles/common.css'
 
 ---
-<Layout>
+<Layout title="DM - music">
 	<main>
 
 		<Navigation></Navigation>
@@ -21,11 +21,15 @@ import '../styles/common.css'
 
 		<ul role="list" class="link-card-grid">
 			{musicData.map((data) => 
-			<Card 
-				title = {data.title}
-				image = {data.imageUrl}> 
-				body = {data.tags[0]}
-			</Card>
+				<Card 
+					href = {data.href}
+					body = ""
+					title = {data.title}
+					image = {data.imageUrl}
+					tags = {data.tags}
+					date = {data.date} >
+				</Card>
+	
 			)}
 		</ul>
 		

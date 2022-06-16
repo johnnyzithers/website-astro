@@ -6,7 +6,7 @@ import videoData from '../data/videos.json';
 import '../styles/common.css'
 
 ---
-<Layout>
+<Layout title="DM - videos">
 	<main>
 
 		<Navigation></Navigation>
@@ -18,10 +18,11 @@ import '../styles/common.css'
 		</p>
 		<ul role="list" class="link-card-grid">
 			{videoData.map((data) => 
+			
 			<VideoCard 
 				title = {data.title}
 				videoUrl = {data.videoUrl}> 
-				body = {data.date}
+				date = {data.date}
 			</VideoCard>
 			)}
 

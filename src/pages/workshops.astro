@@ -13,14 +13,14 @@ import '../styles/common.css'
         <Navigation></Navigation>
 
 
-        <h1>Workshops  </h1>
+        <h1>workshops  </h1>
 
 
 		<p class="instructions">
 			<strong>workshops I have run </strong>
 		</p>
 
-		<ul role="list" class="link-card-grid">
+		<ul role="list" class="workshop-card-grid">
 			{workshopData.map((data) => 
 			<WorkshopCard 
 				title = {data.title}
@@ -36,4 +36,10 @@ import '../styles/common.css'
 
 <style>
 	
+.workshop-card-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr)); */
+    gap: 1rem;
+    padding: 0;
+}
 </style>

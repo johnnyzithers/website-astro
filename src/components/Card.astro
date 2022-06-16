@@ -1,22 +1,33 @@
 ---
 export interface Props {
     title: string,
+    tags: string,
     body: string,
     href: string,
 	image: string,
+	date: string,
 }
-const {href, title, body, image} = Astro.props;
+const {href, title, body, tags, date, image} = Astro.props;
 ---
 <li class="link-card">
     <a href={href}>
-        <h2>
+
+		{date}
+        
+		<h2>
             {title}
-            <!-- <span>&rarr;</span> -->
         </h2>
+
 		<img class="card-image" src={image} alt={title} />
-        <p>
-            {body}
-        </p>
+
+		<p> {body} </p>
+
+		<br>
+        
+		{tags.map((eachTag) => (
+			<p class="tagStyle">{eachTag}</p>
+		))}
+		
     </a>
 </li>
 <style>
@@ -57,6 +68,8 @@ const {href, title, body, image} = Astro.props;
 	}
     
     p {
+		display: inline;
+		margin-right: 0.5em;
         margin-top: 0.75rem;
         margin-bottom: 0;
     }

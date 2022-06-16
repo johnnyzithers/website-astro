@@ -3,29 +3,33 @@ export interface Props {
     title: string,
     body: string,
     href: string,
-	image: string,
+	images: string,
 }
 const {href, title, body, images} = Astro.props;
 ---
-<li class="link-card">
+<div class="workshop-card">
     <a href={href}>
-        <h2>
-            {title}
-        </h2>
 
-        <p>
-            {body}
-        </p>
+		<div class="text-holder">
+			<h2>
+				{title}
+			</h2>
 
-        
-        {images.map((data) => 
-			<img class="card-image" src={data.imageUrl} alt={title}>
-			)}
-		
+			<p>
+				{body}
+			</p>
 
+		</div>
+		<div class="image-holder">
+			{images.map((data) => 
+				<img class="card-image" src={data.imageUrl} alt={title}>
+				)}
+		</div>
     </a>
-</li>
+</div>
 <style>
+
+
 
 	:root {
 		--link-gradient: linear-gradient(45deg, #4F39FA, #DA62C4 30%, var(--color-border) 60%);
@@ -35,9 +39,19 @@ const {href, title, body, images} = Astro.props;
 		max-width: 300px;
 	}
 
-	.link-card {
+
+	.text-holder {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.workshop-card {
+	
 		list-style: none;
 		display: flex;
+		flex-direction: row;
+
 		padding: 0.15rem;
 		/* background-image: var(--link-gradient);
 		background-size: 400%; */
@@ -46,7 +60,7 @@ const {href, title, body, images} = Astro.props;
 		/* transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1); */
 	}
 
-	.link-card > a {
+	.workshop-card > a {
 		width: 100%;
 		text-decoration: none;
 		line-height: 1.4;
@@ -76,11 +90,11 @@ const {href, title, body, images} = Astro.props;
 		background-position: 0;
 	}
 
-	.link-card:is(:hover, :focus-within) h2 {
+	.workshop-card:is(:hover, :focus-within) h2 {
 		color: #4F39FA;
 	}
 
-	.link-card:is(:hover, :focus-within) h2 span {
+	.workshop-card:is(:hover, :focus-within) h2 span {
 		transform: translateX(2px);
 	}
 </style>
