@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Navigation from '../components/Navigation.astro';
+
+import musicData from '../data/music.json';
+import Navigation from '../components/Navigation.astro';
+import '../styles/common.css'
+
+---
+<Layout>
+	<main>
+
+		<Navigation></Navigation>
+
+		<h1>music  </h1>
+
+		<p class="instructions">
+			<strong>music I helped make in some capacity</strong>
+		</p>
+
+		<ul role="list" class="link-card-grid">
+			{musicData.map((data) => 
+			<Card 
+				title = {data.title}
+				image = {data.imageUrl}> 
+				body = {data.tags[0]}
+			</Card>
+			)}
+		</ul>
+		
+	</main>
+</Layout>
+
+<style>
+
+</style>

@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import instrumentData from '../data/instruments.json';
+import Navigation from '../components/Navigation.astro';
+import '../styles/common.css'
+
+---
+<Layout title="Welcome to Astro.">
+	<main>
+
+		<Navigation></Navigation>
+
+		<h1>instruments  </h1>
+		<p class="instructions">
+			<strong>instruments I built</strong>
+			
+		</p>
+		<ul role="list" class="link-card-grid">
+			{instrumentData.map((data) => 
+			<Card 
+				title = {data.title}
+				image = {data.imageUrl}> 
+				body = {data.description}
+			</Card>
+			)}
+
+		</ul>
+		
+	</main>
+</Layout>
+
+<style>
+	
+</style>

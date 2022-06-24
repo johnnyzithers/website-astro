@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import VideoCard from '../components/VideoCard.astro';
+import Navigation from '../components/Navigation.astro';
+import videoData from '../data/videos.json';
+import '../styles/common.css'
+
+---
+<Layout>
+	<main>
+
+		<Navigation></Navigation>
+
+		<h1>videos</h1>
+		<p class="instructions">
+			<strong>videos I've made</strong>
+			
+		</p>
+		<ul role="list" class="link-card-grid">
+			{videoData.map((data) => 
+			<VideoCard 
+				title = {data.title}
+				videoUrl = {data.videoUrl}> 
+				body = {data.date}
+			</VideoCard>
+			)}
+
+		</ul>
+		
+	</main>
+</Layout>
+
+<style>
+
+</style>

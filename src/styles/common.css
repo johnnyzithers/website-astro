@@ -1,0 +1,31 @@
+h1 {
+    margin: 2rem 0;
+}
+
+main {
+    margin: auto;
+    padding: 1em;
+    max-width: 60ch;
+}
+
+.instructions {
+    line-height: 1.6;
+    margin: 1rem 0;
+    background: #4F39FA;
+    padding: 1.0rem;
+    /* border-radius: 0.4rem; */
+    color: var(--color-bg);
+}
+
+.instructions code {
+    font-size: 0.875em;
+    border: 0.1em solid var(--color-border);
+    /* border-radius: 4px; */
+    padding: 0.15em 0.25em;
+}
+.link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+}
