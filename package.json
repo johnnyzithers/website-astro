@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@astrojs/netlify": "^0.4.6"
+  }
+}
