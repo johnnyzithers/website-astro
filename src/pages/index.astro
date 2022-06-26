@@ -3,30 +3,29 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Navigation from '../components/Navigation.astro';
 
+import indexData from '../data/index.json';
+
+
 ---
 <Layout title="Duncan's Website :)">
 	<main>
-		<h2>Hi  </h2>
-		
 		<Navigation></Navigation>
 		
-		<p class="instructions">
+		<!-- <p class="instructions">
 			Recently..
-		</p>
+		</p> -->
 		<ul role="list" class="link-card-grid">
-			
+			{indexData.map((data) => 
 			<Card 
-				title = "upcoming workshops">
+				title = {data.title}
+				image = {data.imageUrl} 
+				body = {data.description}
+				tags = {data.tags}>
 			</Card>
-			<Card 
-				title = "building a music RPG">
-			</Card>
-			<Card 
-				title = "video experiments">
-			</Card>
-			
+			)}
 
 		</ul>
+		
 		
 	</main>
 </Layout>

@@ -5,18 +5,30 @@ export interface Props {
     href: string,
 	image: string,
 }
-const {href, title, body, image} = Astro.props;
+
+const {href, title, body, image, tags} = Astro.props;
+
 ---
+
 <li class="link-card">
     <a href={href}>
-        <h2>
-            {title}
-            <!-- <span>&rarr;</span> -->
-        </h2>
-		<img class="card-image" src={image} alt={title} />
-        <p>
-            {body}
-        </p>
+
+
+		<h2>
+			<span>{title}</span>
+		</h2>
+		
+		<img class="card-image" src={image} alt={title} />	
+
+		<p>
+			{body}
+		</p>
+
+		{tags.map((tag) => 
+			<p class="tag">{tag}</p>
+			<br>
+		)}
+
     </a>
 </li>
 <style>
@@ -31,39 +43,39 @@ const {href, title, body, image} = Astro.props;
 
 	.link-card {
 		list-style: none;
-		display: flex;
-		padding: 0.15rem;
+		display: grid;
+		grid-template-rows: auto 1fr auto;
+		/* min-height: 100vh; */
+		padding: 1em;
+		background-color: wheat;
 		/* background-image: var(--link-gradient);
 		background-size: 400%; */
 		/* border-radius: 0.5rem; */
-		background-position: 100%;
+		/* background-position: 100%; */
 		/* transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1); */
 	}
 
 	.link-card > a {
 		width: 100%;
 		text-decoration: none;
-		line-height: 1.4;
-		padding: 1em 1.3em;
-		/* border-radius: 0.35rem; */
-		color: var(--text-color);
-		background-color: white;
+		/* line-height: 1.4; */
+		/* padding: 1em; */
+		/* color: var(--text-color); */
+		/* background-color: white; */
 		opacity: 0.8;
 	}
 
 	h2 {
+		
 		margin: 0;
 		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 	}
     
-    p {
-        margin-top: 0.75rem;
-        margin-bottom: 0;
-    }
 
 	h2 span {
 		display: inline-block;
 		transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+		font-size: 1em;
 	}
 
 	.link-card:is(:hover, :focus-within) {
