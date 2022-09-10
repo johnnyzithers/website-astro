@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "@example/basics",
-=======
   "name": "@example/portfolio",
->>>>>>> master
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,9 +9,6 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "astro": "^1.0.0-beta.44"
-=======
     "@astrojs/netlify": "^1.0.2",
     "@astrojs/preact": "^0.1.3",
     "astro": "^1.0.0-beta.53",
@@ -23,6 +16,5 @@
   },
   "dependencies": {
     "preact": "^10.7.3"
->>>>>>> master
   }
 }
