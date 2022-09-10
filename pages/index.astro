@@ -4,15 +4,16 @@ import Card from '../components/Card.astro';
 import Navigation from '../components/Navigation.astro';
 
 import indexData from '../data/index.json';
-import '../styles/common.css'
+
+
 ---
 <Layout title="Duncan's Website :)">
 	<main>
 		<Navigation></Navigation>
 		
-		<p class="instructions">
-			<!-- Duncan MacConnell -->
-		</p> 
+		<!-- <p class="instructions">
+			Recently..
+		</p> -->
 		<ul role="list" class="link-card-grid">
 			{indexData.map((data) => 
 			<Card 
@@ -24,7 +25,7 @@ import '../styles/common.css'
 			)}
 
 		</ul>
-		Duncan MacConnell
+		
 		
 	</main>
 </Layout>
@@ -60,13 +61,8 @@ import '../styles/common.css'
 		50% { background-position-y: 80%; }
 	}
 
-	main {
-		height: 100vh;
-	}
-
 	.instructions {
 		line-height: 1.6;
-		
 		margin: 1rem 0;
 		background: #4F39FA;
 		padding: 1.0rem;
