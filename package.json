@@ -1,4 +1,3 @@
-
 {
   "name": "@example/portfolio",
   "version": "0.0.1",
@@ -10,6 +9,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "@astrojs/netlify": "^1.0.2",
     "@astrojs/preact": "^0.1.3",
     "astro": "^1.0.0-beta.53",
     "sass": "^1.52.2"
