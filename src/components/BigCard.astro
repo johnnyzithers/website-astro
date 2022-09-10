@@ -10,19 +10,20 @@ const {href, title, body, image, tags} = Astro.props;
 
 ---
 
-<li class="link-card">
+<li class="big-link-card">
     <a href={href}>
 		<h2>
 			<span>{title}</span>
 		</h2>
-		<img class="card-image" src={image} alt={title} />	
-		<p>
-			{body}
-		</p>
 		{tags.map((tag) => 
 			<p class="tag">{tag}</p>
 			<br>
 		)}
+
+		<img class="big-card-image" src={image} alt={title} />	
+		<p>
+			{body}
+		</p>    
     </a>
 </li>
 <style>
@@ -31,11 +32,11 @@ const {href, title, body, image, tags} = Astro.props;
 		--link-gradient: linear-gradient(45deg, #4F39FA, #DA62C4 30%, var(--color-border) 60%);
 	}
 
-	.card-image {
-		max-width: 300px;
+	.big-card-image {
+		width: 100%;
 	}
 
-	.link-card {
+	.big-link-card {
 		list-style: none;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
@@ -44,7 +45,7 @@ const {href, title, body, image, tags} = Astro.props;
 		background-color: wheat;
 	}
 
-	.link-card > a {
+	.big-link-card > a {
 		width: 100%;
 		text-decoration: none;
 		opacity: 0.8;
@@ -56,18 +57,17 @@ const {href, title, body, image, tags} = Astro.props;
 		transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 	}
     
-
 	h2 span {
 		display: inline-block;
 		transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
 		font-size: 1em;
 	}
 
-	.link-card:is(:hover, :focus-within) {
+	.big-link-card:is(:hover, :focus-within) {
 		background-position: 0;
 	}
 
-	.link-card:is(:hover, :focus-within) h2 {
+	.big-link-card:is(:hover, :focus-within) h2 {
 		color: #4F39FA;
 	}
 

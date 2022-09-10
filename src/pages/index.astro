@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import BigCard from '../components/BigCard.astro';
 import Navigation from '../components/Navigation.astro';
 
 import indexData from '../data/index.json';
@@ -9,22 +9,18 @@ import '../styles/common.css'
 <Layout title="Duncan's Website :)">
 	<main>
 		<Navigation></Navigation>
-		
-		<p class="instructions">
-			<!-- Duncan MacConnell -->
-		</p> 
+
+\		
 		<ul role="list" class="link-card-grid">
 			{indexData.map((data) => 
-			<Card 
+			<BigCard 
 				title = {data.title}
 				image = {data.imageUrl} 
-				body = {data.description}
-				tags = {data.tags}>
-			</Card>
+				body = {data.description}>
+			</BigCard>
 			)}
 
 		</ul>
-		Duncan MacConnell
 		
 	</main>
 </Layout>
