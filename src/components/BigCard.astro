@@ -6,7 +6,7 @@ export interface Props {
 	image: string,
 }
 
-const {href, title, body, image, tags} = Astro.props;
+const {href, title, body, image} = Astro.props;
 
 ---
 
@@ -15,10 +15,6 @@ const {href, title, body, image, tags} = Astro.props;
 		<h2>
 			<span>{title}</span>
 		</h2>
-		{tags.map((tag) => 
-			<p class="tag">{tag}</p>
-			<br>
-		)}
 
 		<img class="big-card-image" src={image} alt={title} />	
 		<p>

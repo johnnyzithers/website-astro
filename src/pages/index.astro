@@ -10,6 +10,17 @@ import '../styles/common.css'
 	<main>
 		<Navigation></Navigation>
 		
+		<ul role="list" class="link-card-grid">
+			{indexData.map((data) => 
+			<BigCard 
+				title = {data.title}
+				image = {data.image1} 
+				body = {data.description}
+				tags = {data.tags}>
+			</BigCard>
+			)}
+
+		</ul>
 		
 	</main>
 </Layout>
