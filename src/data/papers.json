@@ -1,0 +1,33 @@
+[
+    {
+        "title": "SCAPER – A Library for Soundscape Synthesis and Augmentation",
+        "desc": "",
+        "paperUrl": "https://ieeexplore.ieee.org/document/8170052",
+        "date": 2017
+      },
+      {
+        "title": "SEEING SOUND – Investigating the Effects of Visualizations and Complexity on Annotations.",
+        "desc": "",
+        "paperUrl": "https://dl.acm.org/doi/10.1145/3134664",
+        "date": 2017
+      },
+      {
+        "title": "EL-LAMELLOPHONE – An Open Framework for DIY Lamellophone Hyper-instrument",
+        "desc": "",
+        "paperUrl": "https://www.researchgate.net/publication/310644696_El-Lamellophone_-An_Open_Framework_for_Low-cost_DIY_Autonomous_Lemellophone_Based_Hyperinstruments",
+        "date": 2014
+      },
+      {
+        "title": "RANGE – Reconfigurable Autonomous Novel Guitar Effects",
+        "desc": "",
+        "paperUrl": "http://webhome.csc.uvic.ca/~gtzan/nime2013range.pdf",
+        "date": 2013
+      },
+      {
+        "title": "STARI – A Self Tuning Auto-Monochord Robotic Instruments",
+        "desc": "https://ieeexplore.ieee.org/document/6625511",
+        "paperUrl": "",
+        "date": 2013
+      },
+          
+  ]
