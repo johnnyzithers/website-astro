@@ -12,11 +12,8 @@ const {title, paperUrl, date} = Astro.props;
 <li >
     <a href={paperUrl}>
 	
-			<span>{title}</span>
-		
-		
-		
-		
+			<!-- <span>{title}</span> -->
+
         <p class="tag">{date}</p>
 		
     </a>
@@ -28,10 +25,14 @@ const {title, paperUrl, date} = Astro.props;
 	}
 
 	.link-card {
-		list-style: none;
-		display: flex;
-		padding: 0.15rem;
-		background-position: 100%;
+		width: 100%;
+		text-decoration: none;
+		line-height: 1.4;
+		padding: 1em 1.3em;
+		border-radius: 0.35rem;
+		color: var(--text-color);
+		background-color: white;
+		opacity: 0.8;
 	}
 
 	.link-card > a {

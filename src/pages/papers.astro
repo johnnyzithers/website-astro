@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import PubCard from '../components/BigCard.astro';
 import Navigation from '../components/Navigation.astro';
-
 import paperData from '../data/papers.json';
 import '../styles/common.css'
 ---
@@ -11,7 +10,7 @@ import '../styles/common.css'
 
         <Navigation></Navigation>
 
-		<ul role="list" class="link-card-grid">
+		<ul role="list" class="link-card-list">
 			{paperData.map((data) => 
 			<PubCard 
 				title = {data.title}

@@ -3,14 +3,12 @@ body{
 
 }
 
-
 h1 {
     /* margin: 2rem 0; */
     color: aliceblue;
     /* border: 5px orange solid; */
     font-size: 2em;
 }
-
 
 p {
     margin-top: 0.75rem;
@@ -50,6 +48,12 @@ main {
 .link-card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+}
+.link-card-list {
+    display: grid;
+
     gap: 1rem;
     padding: 0;
 }
