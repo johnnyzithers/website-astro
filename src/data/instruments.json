@@ -1,5 +1,21 @@
 [
   {
+    "title": "BIG BOX ",
+    "description": "This is a digital tape-style delay effect. Delay changes speed up or slow down the rate of reading the delay line, producing the pitch effects. This thing has a lot of features like tap-tempo and delay subdivisions, but I mostly use the digital tape stop! It's a momentary push button that stops the delay line and filters the incoming audio until you release the button, which also re-introduces the delay. You can mod the filter cutoff with a LDR as well.",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/s/iosnd8hbb8811oi/IMG_7070.jpeg?dl=0",
+    "tags": [
+      "audio effect",
+      "bela",
+      "c++"
+    ],
+    "date": 2022,
+    "links": [
+      {
+        "href": "https://www.instagram.com/p/Cjd5QjpP1eM/?igshid=N2NmMDY0OWE%3D/"
+      }
+    ]
+  },
+  {
     "title": "trimpin bird ",
     "description": "This is an installation inspired by a sound sculpture by Trimpin. It’s a delay line that listens for audio input, and will repeat the audio input back to you. Fun to feel connected! ",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/a73dst9j8c0hwgb/16-trimpin-2.jpg?dl=0",
