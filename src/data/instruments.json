@@ -1,5 +1,21 @@
 [
   {
+    "title": "Tine Switch Instrument",
+    "description": "The Octave is divided in 14 divisions an ",
+    "imageUrl": "https://www.dropbox.com/scl/fi/zs5v1kp3b4zu146j92g20/14-tine-switch.png?rlkey=jryqmes0lsi0owiydtufm9pgm&aww=1",
+    "tags": [
+      "instrument",
+      "daisy",
+      "c++"
+    ],
+    "date": 2023,
+    "links": [
+      {
+        "href": "https://www.instagram.com/p/Cjd5QjpP1eM/?igshid=N2NmMDY0OWE%3D/"
+      }
+    ]
+  },  
+  {
     "title": "BIG BOX ",
     "description": "This is a digital tape-style delay effect. Delay changes speed up or slow down the rate of reading the delay line, producing the pitch effects. This thing has a lot of features like tap-tempo and delay subdivisions, but I mostly use the digital tape stop! It's a momentary push button that stops the delay line and filters the incoming audio until you release the button, which also re-introduces the delay. You can mod the filter cutoff with a LDR as well.",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/iosnd8hbb8811oi/IMG_7070.jpeg?dl=0",
@@ -114,7 +130,7 @@
   {
     "title": "seven tones",
     "description": "An oscillator bank with octave split into 7 subdivisions. Each tone has UPPER or LOWER octave control. Additional controls include phaser LFO, and semitone tonality adjustment.  That's it !",
-    "imageUrl": "https://www.dl.dropboxusercontent.com/s/t6r5r0jzmloj5s9/octave-sine.jpeg?dl=0",
+    "imageUrl": "https://www.dropbox.com/scl/fi/qs4bjhu1jvsvcjko05fi8/octave-sine.jpeg?rlkey=3xnu3c4t7q6k775k97px7wi0y&raw=1",
     "tags": [
       "instrument",
       "raspberry pi",
@@ -130,7 +146,7 @@
   {
     "title": "force midi",
     "description": "Capacitive touch MIDI note generator machine. Position-ish on ribbon controls MIDI note potentiometers control milliseconds between notes and range of notes to represent. Toggle switch as time divisor. ",
-    "imageUrl": "https://www.dl.dropboxusercontent.com/s/dl3eqeasru83crc/midi-smash.jpeg?dl=0",
+    "imageUrl": "https://www.dropbox.com/scl/fi/wzfcj13k9byjisc7y8l6d/midi-smash.jpeg?rlkey=dm89g233kob8f9mjgr7v91tfj&raw=1",
     "tags": [
       "midi controller",
       "teensy",
