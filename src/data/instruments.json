@@ -1,21 +1,5 @@
 [
   {
-    "title": "Tine Switch Instrument",
-    "description": "The Octave is divided in 14 divisions an ",
-    "imageUrl": "https://www.dropbox.com/scl/fi/zs5v1kp3b4zu146j92g20/14-tine-switch.png?rlkey=jryqmes0lsi0owiydtufm9pgm&aww=1",
-    "tags": [
-      "instrument",
-      "daisy",
-      "c++"
-    ],
-    "date": 2023,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/Cjd5QjpP1eM/?igshid=N2NmMDY0OWE%3D/"
-      }
-    ]
-  },  
-  {
     "title": "BIG BOX ",
     "description": "This is a digital tape-style delay effect. Delay changes speed up or slow down the rate of reading the delay line, producing the pitch effects. This thing has a lot of features like tap-tempo and delay subdivisions, but I mostly use the digital tape stop! It's a momentary push button that stops the delay line and filters the incoming audio until you release the button, which also re-introduces the delay. You can mod the filter cutoff with a LDR as well.",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/iosnd8hbb8811oi/IMG_7070.jpeg?dl=0",

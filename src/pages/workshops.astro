@@ -2,23 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import WorkshopCard from '../components/WorkshopCard.astro';
 import Navigation from '../components/Navigation.astro';
-
 import workshopData from '../data/workshops.json'
-
 import '../styles/common.css'
+
 ---
 <Layout title="DM - workshops">
 	<main>
 
         <Navigation></Navigation>
-
-
-        <!-- <h1>workshops  </h1> -->
-
-
-		<!-- <p class="instructions">
-			<strong>workshops I have run </strong>
-		</p> -->
 
 		<ul role="list" class="link-card-grid">
 			{workshopData.map((data) => 
