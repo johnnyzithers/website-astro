@@ -1,5 +1,21 @@
 [
   {
+    "title": "tactile piano ",
+    "description": "An octave-in-14 tactile switch instrument. Switches trigger digital oscillators with a fixed attack and release. The 14 oscillators are tuned across an octave in equal divisions. That's it.  ",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/zs5v1kp3b4zu146j92g20/14-tine-switch.png?rlkey=jryqmes0lsi0owiydtufm9pgm&dl=0",
+    "tags": [
+      "instrument",
+      "daisy",
+      "c++"
+    ],
+    "date": 2022,
+    "links": [
+      {
+        "href": ""
+      }
+    ]
+  },  
+  {
     "title": "BIG BOX ",
     "description": "This is a digital tape-style delay effect. Delay changes speed up or slow down the rate of reading the delay line, producing the pitch effects. This thing has a lot of features like tap-tempo and delay subdivisions, but I mostly use the digital tape stop! It's a momentary push button that stops the delay line and filters the incoming audio until you release the button, which also re-introduces the delay. You can mod the filter cutoff with a LDR as well.",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/iosnd8hbb8811oi/IMG_7070.jpeg?dl=0",
@@ -49,7 +65,7 @@
   },
   {
     "title": "digital filter / mechanical LFO ",
-    "description": "A fun digital ladder filter with fidget spinner optical LFO. Really fun and answers the question how much of music is fidget? Good for adults and cats have played with this too.",
+    "description": "A fun digital ladder filter with fidget spinner optical LFO. Really fun and answers the question how much of music is fidget? ",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/jdbunkf8hld0hh5/15-fidget.png?dl=0",
     "tags": [
       "audio effect",
@@ -65,7 +81,7 @@
   },
   {
     "title": "slowdowner called death",
-    "description": "Instrument called death is an alternate timing instrument. It limits the speed with which your music can go through life at. Does not play well with others!",
+    "description": "Instrument called death is an alternate timing instrument. It limits the speed with which your music can go through life at. ",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/eq2ptsg1h2r5bir/14-death.png?dl=0",
     "tags": [
       "audio effect",
@@ -81,7 +97,7 @@
   },
   {
     "title": "bass island",
-    "description": "Pattern-generating bass synth. Just click that switch and you are generously rewarded with a new funky bass line, BOOING! Perfect if you’ve recently moved away from all your bass playing friends. Controls adjust pattern length, tempo, ASDR of bass synth.  ",
+    "description": "Pattern-generating bass synth. Just click that switch and you are generously rewarded with a new funky bass line, BOOING! Controls adjust pattern length, tempo, ASDR of bass synth.  ",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/tkjp7dw5udwf679/3-bass-island.png?dl=0",
     "tags": [
       "instrument",
@@ -113,7 +129,7 @@
   },
   {
     "title": "seven tones",
-    "description": "An oscillator bank with octave split into 7 subdivisions. Each tone has UPPER or LOWER octave control. Additional controls include phaser LFO, and semitone tonality adjustment.  That's it !",
+    "description": "An oscillator bank with octave split into 7 subdivisions. Each tone has UPPER or LOWER octave control. Additional controls include phaser LFO, and semitone tonality adjustment. ",
     "imageUrl": "https://www.dropbox.com/scl/fi/qs4bjhu1jvsvcjko05fi8/octave-sine.jpeg?rlkey=3xnu3c4t7q6k775k97px7wi0y&raw=1",
     "tags": [
       "instrument",
