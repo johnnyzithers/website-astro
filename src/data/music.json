@@ -1,21 +1,39 @@
 [
-    {
-      "title": "Johnny Zithers - \"XXVII\"",
-      "imageUrl": "https://www.dl.dropboxusercontent.com/s/9we4debykau79yi/music-jz1.png?dl=0://johnnyzithers.bandcamp.com/album/xxvii",
-      "tags": [
-        "vocals",
-        "guitar",
-        "keyboards",
-        "recording",
-        "production"
-      ],
-      "date": 2015,
-      "links": [
-        {
-          "href": "https://johnnyzithers.bandcamp.com/album/xxvii"
-        }
-      ]
-    },
+  {
+    "title": "Johnny Zithers - \"Wild Stuff\"",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/hz0z3ap34xwyw8ewm8ze7/14-wild-stuff.png?rlkey=zi1x83ba6uqggnde1pyxw1olo&dl=0",
+    "tags": [
+      "vocals",
+      "guitar",
+      "keyboards",
+      "recording",
+      "production"
+    ],
+    "date": 2024,
+    "links": [
+      {
+        "href": "https://johnnyzithers.bandcamp.com/album/wild-stuff"
+      }
+    ]
+  },
+  {
+    "title": "Johnny Zithers - \"XXVII\"",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/s/9we4debykau79yi/music-jz1.png?dl=0://johnnyzithers.bandcamp.com/album/xxvii",
+    "tags": [
+      "vocals",
+      "guitar",
+      "keyboards",
+      "recording",
+      "production"
+    ],
+    "date": 2015,
+    "links": [
+      {
+        "href": "https://johnnyzithers.bandcamp.com/album/xxvii"
+      }
+    ]
+  },
+
     {
       "title": "Johnny Zithers - \"Hi World\"",
       "imageUrl": "https://www.dl.dropboxusercontent.com/s/6o7k9rizsffdoxn/music-jz-hihi.png?dl=0",

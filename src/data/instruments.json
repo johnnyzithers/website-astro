@@ -1,5 +1,52 @@
 [
   {
+    "title": "toy #1",
+    "description": "This is a toy and it’s for a particular kid. It has some of his favourite songs programmed into it. You press the button and you get a note! It can be that simple!",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/7hubtxi9wzue9eoiqnz01/20-koala.jpeg?rlkey=i9oppruxtef3mrszyvjnlyjyx&dl=0",
+    "tags": [
+      "toy",
+      "arduino"
+    ],
+    "date": 2024,
+    "links": [
+      {
+        "href": "https://www.instagram.com/p/C6fP2TMNzOU/"
+      }
+    ]
+  },    
+  {
+    "title": "bambi decays eternally",
+    "description": "An digital emulation of analog tape delay, with a momentary tape stop/read pointer shrink function that reads the delay at half speed, providing an octave shift. Designed to be manipulated while playing guitar with separate pedal for foot control. ",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/98oieuk8fphul24cig4nz/18-bambi.png?rlkey=tjyq83wtxzdol0sdjzevbksil&dl=0",
+    "tags": [
+      "audio effect",
+      "bela",
+      "c++"
+    ],
+    "date": 2024,
+    "links": [
+      {
+        "href": "https://www.instagram.com/reel/C7RW4dtuvo3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      }
+    ]
+  },    
+  {
+    "title": "big brother filtered chorus",
+    "description": "This effect is a LFO equipped low pass filter feeding into a chorus effect. The filter resonance is tied to the delay line feedback, meaning that changing the filter shape effects the chorus density. This thing has a fun and funky energy and is really fun to jam with - just like the big brother this was built for. ❤️",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/69v4v8fdaeixkcpxrf0r4/19-bigbro.png?rlkey=zctiq6kphma34g8q4kvt0veej&dl=0",
+    "tags": [
+      "audio effect",
+      "daisy",
+      "c++"
+    ],
+    "date": 2023,
+    "links": [
+      {
+        "href": " https://www.instagram.com/p/CpLYwIevoo4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      }
+    ]
+  }, 
+  {
     "title": "tactile piano ",
     "description": "An octave-in-14 tactile switch instrument. Switches trigger digital oscillators with a fixed attack and release. The 14 oscillators are tuned across an octave in equal divisions. That's it.  ",
     "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/zs5v1kp3b4zu146j92g20/14-tine-switch.png?rlkey=jryqmes0lsi0owiydtufm9pgm&dl=0",
