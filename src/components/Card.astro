@@ -6,12 +6,12 @@ export interface Props {
 	image: string,
 }
 
-const {href, title, body, image, tags} = Astro.props;
+const {links, title, body, image, tags} = Astro.props;
 
 ---
 
 <li class="link-card">
-    <a href={href}>
+    <a href={links}>
 		<h2>
 			<span>{title}</span>
 		</h2>
@@ -21,14 +21,15 @@ const {href, title, body, image, tags} = Astro.props;
 		</p>
 		{tags.map((tag) => 
 			<p class="tag">{tag}</p>
-			<br>
 		)}
     </a>
 </li>
 
 <style>
 
-
+	.tag{
+		margin: 0.1em;
+	}
 
 	.card-image {
 		max-width: 300px;
@@ -71,7 +72,7 @@ const {href, title, body, image, tags} = Astro.props;
 	}
 
 	.link-card:is(:hover, :focus-within) h2 {
-		color: #4F39FA;
+		color:rgb(101, 174, 172);
 	}
 
 	.link-card:is(:hover, :focus-within) h2 span {

@@ -1,11 +1,11 @@
 html{
-    background-color: black;
+    /* background-color: white; */
 
 }
 
 h1 {
     /* margin: 2rem 0; */
-    color: aliceblue;
+    color: black;
     /* border: 5px orange solid; */
     font-size: 2em;
 }
@@ -16,16 +16,18 @@ p {
     font-size: 0.7em;
 }
 
+
+
 main {
-    margin: auto;
+    /* margin: auto; */
     padding: 1em;
-    max-width: 60ch;
+    /* max-width: 60ch; */
 }
 
 .tag {
     background-color: red;
     display: inline;
-    color: aliceblue;
+    color: black;
     padding: 0.1em;
     /* margin-bottom: 2em; */
     line-height: 1em;
@@ -49,6 +51,12 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
     gap: 1rem;
+    padding: 0;
+}
+.link-card-grid-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    /* gap: 1rem; */
     padding: 0;
 }
 .link-card-list {

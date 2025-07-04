@@ -1,5 +1,31 @@
 [
   {
+    "title": "modified noise toaster",
+    "description": "This is a #noisetoaster analog synthesizer that I built for a child - designed by Ray Wilson of #mfos and based on a mod by a guy named Kurt in case you want to search that. The stackable banana plugs makes many more possibilities available to the child patcher.",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/3fyoqgmy2wwasp4f5cg9c/22-noisetoast.jpeg?rlkey=ahf1w3fuzwzxdmllfd0zuzod7&dl=0",
+    "tags": [
+      "analog synth",
+      "noisetoaster"
+    ],
+    "date": 2025,
+    "href": "https://www.instagram.com/p/DLAVG0HsAe/"
+  },    
+  {
+    "title": "read pointer hack",
+    "description": "This is a delay line sampler instrument with two controls that affect the delay line read pointer position. The knob controls how much to increment the delay line for each sampling period. Essentially it's how many samples to play back, so you can affect the pitch and the speed of the sample. The button divides the read pointer in two, providing a momentary octave drop. This counts as an instrument because I used it at a show. The violin is mostly wood and pig intestines.",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/795dkfcfhdoojp5s0pbnq/21-readhack.png?rlkey=2g0tmsyraqsg0gqna159qcw3k&dl=0",
+    "tags": [
+      "sampler",
+      "bela",
+      "c++"
+    ],
+    "date": 2025,
+    "href": "https://www.instagram.com/p/DK-Hkkruv6Z/"
+  },    
+  
+  
+  
+  {
     "title": "toy #1",
     "description": "This is a toy and it’s for a particular kid. It has some of his favourite songs programmed into it. You press the button and you get a note! It can be that simple!",
     "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/7hubtxi9wzue9eoiqnz01/20-koala.jpeg?rlkey=i9oppruxtef3mrszyvjnlyjyx&dl=0",
@@ -8,11 +34,7 @@
       "arduino"
     ],
     "date": 2024,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/C6fP2TMNzOU/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/C6fP2TMNzOU/"
   },    
   {
     "title": "bambi decays eternally",
@@ -24,11 +46,7 @@
       "c++"
     ],
     "date": 2024,
-    "links": [
-      {
-        "href": "https://www.instagram.com/reel/C7RW4dtuvo3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-      }
-    ]
+    "href": "https://www.instagram.com/reel/C7RW4dtuvo3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
   },    
   {
     "title": "big brother filtered chorus",
@@ -40,11 +58,7 @@
       "c++"
     ],
     "date": 2023,
-    "links": [
-      {
-        "href": " https://www.instagram.com/p/CpLYwIevoo4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-      }
-    ]
+    "href": " https://www.instagram.com/p/CpLYwIevoo4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
   }, 
   {
     "title": "tactile piano ",
@@ -55,12 +69,8 @@
       "daisy",
       "c++"
     ],
-    "date": 2022,
-    "links": [
-      {
-        "href": ""
-      }
-    ]
+    "date": 2022, 
+    "href": "https://www.instagram.com/p/CfB1cUbOz17/"
   },  
   {
     "title": "BIG BOX ",
@@ -72,11 +82,7 @@
       "c++"
     ],
     "date": 2022,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/Cjd5QjpP1eM/?igshid=N2NmMDY0OWE%3D/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/Cjd5QjpP1eM/?igshid=N2NmMDY0OWE%3D/"
   },
   {
     "title": "trimpin bird ",
@@ -88,11 +94,7 @@
       "c++"
     ],
     "date": 2019,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/CcNoJXTOMAM/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/CcNoJXTOMAM/"
   },
   {
     "title": "vocoder looper ",
@@ -104,11 +106,7 @@
       "pd"
     ],
     "date": 2019,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/CJMNF7EDAsi/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/CJMNF7EDAsi/"
   },
   {
     "title": "digital filter / mechanical LFO ",
@@ -120,11 +118,7 @@
       "c++"
     ],
     "date": 2019,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/CJMNF7EDAsi/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/CJMNF7EDAsi/"
   },
   {
     "title": "slowdowner called death",
@@ -136,11 +130,7 @@
       "c++"
     ],
     "date": 2019,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/CDgevH8j3_b/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/CDgevH8j3_b/"
   },
   {
     "title": "bass island",
@@ -152,11 +142,7 @@
       "c++"
     ],
     "date": 2019,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/B2hWwUNlkag"
-      }
-    ]
+    "href": "https://www.instagram.com/p/B2hWwUNlkag"
   },
   {
     "title": "big dumb mountain",
@@ -168,11 +154,7 @@
       "c++"
     ],
     "date": 2018,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/BjoDsvJD5SV"
-      }
-    ]
+    "href": "https://www.instagram.com/p/BjoDsvJD5SV"
   },
   {
     "title": "seven tones",
@@ -184,11 +166,7 @@
       "c++"
     ],
     "date": 2020,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/BjoDsvJD5SV"
-      }
-    ]
+    "href": "https://www.instagram.com/p/BjoDsvJD5SV"
   },
   {
     "title": "force midi",
@@ -200,11 +178,7 @@
       "c"
     ],
     "date": 2019,
-    "links": [
-      {
-        "href": "https://www.fixme.com"
-      }
-    ]
+    "href": "https://www.fixme.com"
   },
   {
     "title": "grainm",
@@ -216,11 +190,7 @@
       "pd"
     ],
     "date": 2017,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/BhIg2iZj_5w"
-      }
-    ]
+    "href": "https://www.instagram.com/p/BhIg2iZj_5w"
   },
   {
     "title": "horse chords",
@@ -232,11 +202,7 @@
       "c++"
     ],
     "date": 2018,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/B2PT5Ggl-FH"
-      }
-    ]
+    "href": "https://www.instagram.com/p/B2PT5Ggl-FH"
   },
   {
     "title": "centrophone",
@@ -248,15 +214,11 @@
       "c++"
     ],
     "date": 2016,
-    "links": [
-      {
-        "href": "https://www.fixme.com"
-      }
-    ]
+    "href": ""
   },
   {
     "title": "2 tones",
-    "description": "Dual oscillator AM/FM synthesizer. When powered on, Centrophone draws 12 random audio samples on the device. Feature analysis is computed, and the samples are mapped to the keyboard in order of ascending values of the chosen feature. Audio features supported for the ordering of samples include spectral centroid, spectral flux, and RMS energy.",
+    "description": "Dual oscillator AM/FM synthesizer. Two osccillators can be used in either configuration, with controls for osccillator frequency and volume, and FM ratio, carrier amount, and modulation index. LDR is connected to ratio parameter. .",
     "imageUrl": "https://www.dl.dropboxusercontent.com/s/mgevbevr1o3dwil/4-2tones.png?dl=0",
     "tags": [
       "instrument",
@@ -264,11 +226,7 @@
       "c++"
     ],
     "date": 2015,
-    "links": [
-      {
-        "href": "https://www.instagram.com/p/BVkiO33jZSV/"
-      }
-    ]
+    "href": "https://www.instagram.com/p/BVkiO33jZSV/"
   },
   {
     "title": "hanging drone cc",
@@ -280,11 +238,7 @@
       "c"
     ],
     "date": 2017,
-    "links": [
-      {
-        "href": "https://www.fixme.com"
-      }
-    ]
+    "href": ""
   },
   {
     "title": "geoseq",
@@ -296,10 +250,6 @@
       "webaudio"
     ],
     "date": 2014,
-    "links": [
-      {
-        "href": "https://www.fixme.com"
-      }
-    ]
+    "href": ""
   }
 ]

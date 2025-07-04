@@ -8,31 +8,33 @@ const {href, content, image} = Astro.props;
 ---
 <div class="navigation-banner">
 
-        <a href="/music" >
-            <div class="navigation-link">
-                music
-           </div>
-        </a>
         <a href="/instruments">
             <div class="navigation-link">
-                instruments
+                <span><b>instruments</b></span>
            </div>   
         </a>
+
+        <a href="/music" >
+            <div class="navigation-link">
+                <span><b>music</b></span>
+           </div>
+        </a>
+        
         <a href="/videos" >
             <div class="navigation-link">
-                videos
+                <span><b>videos</b></span>
             </div>    
         </a>
         
         <a href="/workshops" >
             <div class="navigation-link">
-                workshops
+                <span><b>workshops</b></span>
             </div>    
         </a>
 
         <!-- <a href="/papers" >
             <div class="navigation-link">
-                publications
+                <span><b>papers</b></span>
             </div>    
         </a> -->
     
@@ -42,28 +44,35 @@ const {href, content, image} = Astro.props;
 <style>
 
     a {
-        color: white;
+        color: black;
+        
+        font: Inter;
+        font-size: 2em;
+        text-decoration: none;
+        style: bold;
         /* padding; 1em; */
     }
     div {
         display: inline;
-        /* padding: 0.3em; */
+        
     }
 
-    .navigation-banner {
-        width: 10em;
-        /* background-color: orange;; */
+    .navigation-banner{
     }
+
     .navigation-link {
         /* background-color: #01256F; */
             
         margin-top: 0.75rem;
         margin-bottom: 0;
         margin-right: 1em;
-        /* font-size: 0.7em; */
+        font-size: 0.5em;
         display: inline;
         /* color: aliceblue; */
+        padding:1.5em;
+
     }
+
 
 
 </style>
