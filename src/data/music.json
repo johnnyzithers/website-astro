@@ -1,4 +1,4 @@
-[
+[  
   {
     "title": "Johnny Zithers - \"Wild Stuff\"",
     "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/hz0z3ap34xwyw8ewm8ze7/14-wild-stuff.png?rlkey=zi1x83ba6uqggnde1pyxw1olo&dl=0",
@@ -11,6 +11,17 @@
     ],
     "date": 2024,
     "href": "https://johnnyzithers.bandcamp.com/album/wild-stuff"
+  },
+  {
+    "title": "Tummy - \"Sci Times in the Hi-Fi Corral\"",
+    "imageUrl": "https://www.dl.dropboxusercontent.com/scl/fi/cteck5cydrags3fz132yt/music-tummy.png?rlkey=6d0lpbhfoznfb2g9eshf1c2gu&dl=0",
+  
+    "tags": [
+      "recording",
+      "production"
+    ],
+    "date": 2022,
+    "href": "https://tummytime.bandcamp.com/album/sci-times-in-the-hi-fi-corral"
   },
   {
     "title": "Johnny Zithers - \"XXVII\"",
